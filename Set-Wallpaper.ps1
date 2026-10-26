@@ -1,4 +1,4 @@
-﻿$url  = "https://picsum.photos/1920/1080.jpg"
+$url  = "https://picsum.photos/1920/1080.jpg"
 $path = "$env:PUBLIC\Pictures\wall.jpg"
 
 Invoke-WebRequest -Uri $url -OutFile $path -UseBasicParsing
